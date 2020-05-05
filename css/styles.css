@@ -3,8 +3,12 @@ body {
     background-color: #303841;
 }
 
+.trevo {
+    border-radius: 100%;
+}
+
 h1 {
-    margin-top: 5%;
+    margin-top: 10px;
     font-family: "Jost";
     font-size: 4.2rem;
     font-weight: bold;
