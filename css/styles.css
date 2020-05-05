@@ -6,20 +6,22 @@ body {
 h1 {
     margin-top: 5%;
     font-family: "Jost";
-    font-size: 50pt;
+    font-size: 4.2rem;
     font-weight: bold;
     color: #eeeeee;
 }
 
 h2 {
     font-family: "Jost";
-    font-size: 40pt;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #eeeeee; 
 }
 
 .bolas-container {
-    margin-top: 50px;
+    padding: 25px;
+    width: 700px;
+    margin: auto;
 }
 
 .bola {
@@ -34,6 +36,7 @@ h2 {
     height: 100px;
     background-color: #3CB371;
     padding: 20px;
+    margin: 5px;
 }
 
 .bl1 {
@@ -41,14 +44,14 @@ h2 {
 }
 
 .btn {
-    margin-top: 5%;
+    margin-top: 15px;
 }
 
 .creditos {
     margin-top: 50px;
     color: #eeeeee;
     font-family: "Ubuntu";
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .contato:hover {
