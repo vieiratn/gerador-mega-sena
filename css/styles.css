@@ -1,14 +1,21 @@
 body {
     text-align: center;
-    background-color: #27496d;
+    background-color: #303841;
 }
 
 h1 {
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: "Jost";
     font-size: 50pt;
     font-weight: bold;
-    color: white;
+    color: #eeeeee;
+}
+
+h2 {
+    font-family: "Jost";
+    font-size: 40pt;
+    font-weight: bold;
+    color: #eeeeee; 
 }
 
 .bolas-container {
@@ -19,13 +26,13 @@ h1 {
     font-family: "Ubuntu";
     font-size: 2rem;
     font-weight: bold;
-    color: white;
+    color: #eeeeee;
     display: inline-block;
     text-align: center;
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    background-color: #1fab89;
+    background-color: #3CB371;
     padding: 20px;
 }
 
@@ -39,7 +46,11 @@ h1 {
 
 .creditos {
     margin-top: 50px;
-    color: white;
+    color: #eeeeee;
     font-family: "Ubuntu";
     font-size: 12px;
+}
+
+.contato:hover {
+    color: #eeeeee;
 }
