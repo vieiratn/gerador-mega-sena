@@ -10,6 +10,11 @@ function palpites() {
         return Math.floor(num)
     }
 
+    // Função para ordenar os números da lista.
+    function ordenar(a, b) {
+        return (a - b)
+    }
+
     // Loop para colocar os números dentro da lista.
     let cont = 0
     while (palpite.length < 6) {
@@ -18,20 +23,15 @@ function palpites() {
         // Condicional que verifica se o número aleatório já existe na lista.
         if (palpite.indexOf(bola) === -1) {
             palpite.push(bola)
-            cont ++
+            cont++
         }
     }
 
-    // Função para ordenar os números da lista.
-    function ordenar(a, b){
-        return (a - b)
-      }
+    palpite.sort(ordenar)
 
     // Loop para exibir os valores da lista ordenada dentro das bolas.
-    for (let c = 0; palpite.length <= 6; c ++) {
-        var msbola = document.getElementById(`bl${c}`)
-        palpite.sort(ordenar)
+    for (let c = 0; palpite.length <= 6; c++) {
+        let msbola = document.getElementById(`bl${c}`)
         msbola.innerHTML = palpite[c]
     }
-
 }
