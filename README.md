@@ -30,10 +30,9 @@ Para sugerir melhorias ao projeto basta enviar uma Issue ou um Pull-Request, bem
 ## Controle das Versões:
 
 > v1.0 = Primeira versão funcional da Aplicação.
+> v1.1 = Ajustes relacionados com a Responsividade.
 
 ## Futuros Updates:
 
-> v1.1 = Ajustes nos arquivos de CSS para melhorar a responsividade da aplicação em diversos dispositivos.
-
-> v1.2 = Ajustes nos arquivos de CSS para melhorar o visual da página e ordenar melhor as suas respectivas seções.
+> v1.3 = Transferir o JavaScript interno para um servidor, desta forma, somente vou fornecer os números do palpite para a página.
 
