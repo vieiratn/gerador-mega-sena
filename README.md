@@ -30,6 +30,7 @@ Para sugerir melhorias ao projeto basta enviar uma Issue ou um Pull-Request, bem
 ## Controle das Versões:
 
 > v1.0 = Primeira versão funcional da Aplicação.
+
 > v1.1 = Ajustes relacionados com a Responsividade.
 
 ## Futuros Updates:
