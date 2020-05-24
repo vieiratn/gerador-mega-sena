@@ -35,5 +35,5 @@ Para sugerir melhorias ao projeto basta enviar uma Issue ou um Pull-Request, bem
 
 ## Futuros Updates:
 
-> v1.3 = Transferir o JavaScript interno para um servidor, desta forma, somente vou fornecer os números do palpite para a página.
+> v1.2 = Transferir o JavaScript interno para um servidor, desta forma, somente vou fornecer os números do palpite para a página.
 
