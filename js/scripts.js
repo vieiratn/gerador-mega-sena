@@ -42,7 +42,7 @@ gerarPalpite.addEventListener("click", function() {
     
 // Iteração para preencher o HTML com os números da lista.
     for (i = 0; i < palpite.length; i++) {
-        let number = document.querySelector(`#bl${i}`);
-        number.innerHTML = palpite[i];
+        let bola = document.querySelector(`#bl${i}`);
+        bola.innerHTML = palpite[i];
     }
 });
