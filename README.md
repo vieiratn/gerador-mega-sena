@@ -1,8 +1,8 @@
-# Gerador Automático de Palpites da Mega-Sena
+# Gerador Automático de Jogos da Mega-Sena
 
 ## Objetivo:
 
-Trata-se de uma Aplicação Web que visa fornecer o serviço de criação automática de palpites para jogos na Mega-Sena aos seus usuários.
+Trata-se de uma Aplicação Web que visa fornecer o serviço de criação automática e aleatória de jogos para jogos na Mega-Sena aos seus usuários.
 
 A intenção da criação dessa Aplicação foi treinar habilidades de **HTML5**, **CSS3** e **JavaScript**, bem como, a utilização do **[Framework Bootstrap](https://getbootstrap.com/)** em um projeto real.
 
@@ -27,17 +27,16 @@ Nesta parte, trabalho a função que é chamada pelo botão de ação no **HTML*
 
 Para sugerir melhorias ao projeto basta enviar uma **Issue** ou um **Pull-Request**, bem como, me enviar uma **Mensagem Direta**.
 
-## Versão atual:
+## Versão Atual:
 
 > v1.2 = Ajustes no texto e correções de código.
 
-## Versões anteriores:
-
-> v1.0 = Primeira versão funcional da Aplicação.
+## Versões Anteriores:
 
 > v1.1 = Ajustes relacionados com CSS e Responsividade.
+
+> v1.0 = Primeira versão funcional da Aplicação.
 
 ## Futuras Implementações:
 
 > v1.3 = Transferir o JavaScript para um servidor, desta forma, vou fazer uma integração entre o back-end e o front-end, tornando esta, uma aplicação completa.
-
