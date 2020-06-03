@@ -30,6 +30,16 @@ p {
     margin-bottom: 20px;
 }
 
+.legend-title-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.legend-container {
+    display: flex;
+    justify-content: center;
+}
+
 .bolas-container {
     padding: 25px;
     margin: auto;
@@ -45,10 +55,18 @@ p {
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    background-color: #3CB371;
+    background-color: #155724;
     padding: 20px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
+}
+
+.bolas-mais {
+    background-color: #004085;
+}
+
+.bolas-menos {
+    background-color: #721c24;
 }
 
 .bl1 {

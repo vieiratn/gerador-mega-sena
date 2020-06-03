@@ -29,16 +29,16 @@ Para sugerir melhorias ao projeto basta enviar uma **Issue** ou um **Pull-Reques
 
 ## Versão Atual:
 
-> v1.2 = Ajustes no texto e correções de código.
+> v1.3 = Analisa o jogo aleatório para informar ao usuário se são números muito ou pouco sorteados.
 
 ## Versões Anteriores:
+
+> v1.2 = Ajustes no texto e correções de código.
 
 > v1.1 = Ajustes relacionados com CSS e Responsividade.
 
 > v1.0 = Primeira versão funcional da Aplicação.
 
 ## Futuras Implementações:
-
-> v1.3 = Analisar os números gerados para informar ao usuário se são números muito ou pouco sorteados.
 
 > v1.4 = Transferir o JavaScript para um servidor, desta forma, vou fazer uma integração entre o back-end e o front-end, tornando esta, uma aplicação completa.
