@@ -39,4 +39,6 @@ Para sugerir melhorias ao projeto basta enviar uma **Issue** ou um **Pull-Reques
 
 ## Futuras Implementações:
 
-> v1.3 = Transferir o JavaScript para um servidor, desta forma, vou fazer uma integração entre o back-end e o front-end, tornando esta, uma aplicação completa.
+> v1.3 = Analisar os números gerados para informar ao usuário se são números muito ou pouco sorteados.
+
+> v1.4 = Transferir o JavaScript para um servidor, desta forma, vou fazer uma integração entre o back-end e o front-end, tornando esta, uma aplicação completa.
