@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #303841;
+    background-color: #444B54;
 }
 
 h1 {
@@ -25,7 +25,7 @@ p {
     margin-bottom: 15px;
 }
 
-.trevo {
+.sorteio {
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -55,18 +55,18 @@ p {
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    background-color: #155724;
+    background-color: #84C664;
     padding: 20px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 .bolas-mais {
-    background-color: #004085;
+    color: #3C3CCC;
 }
 
 .bolas-menos {
-    background-color: #721c24;
+    color: #CC3C3C;
 }
 
 .bl1 {
@@ -77,8 +77,16 @@ p {
     margin-top: 15px;
 }
 
-.creditos {
+.footer-container {
     margin-top: 50px;
+}
+
+.trevo {
+    width: 32px;
+    height: 32px;
+}
+
+.creditos {
     color: #eeeeee;
     font-family: "Jost";
 }

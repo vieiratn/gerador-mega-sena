@@ -6,6 +6,8 @@ Trata-se de uma Aplicação Web que visa fornecer o serviço de criação autom�
 
 A intenção da criação dessa Aplicação foi treinar habilidades de **HTML5**, **CSS3** e **JavaScript**, bem como, a utilização do **[Framework Bootstrap](https://getbootstrap.com/)** em um projeto real.
 
+**Acessar Website**: [Gerador Mega-Sena](https://vieiratn.github.io/gerador-mega-sena/)
+
 ## Funcionamento:
 
 O projeto é composto por uma página estática de **HTML** com o botão para gerar o palpite. Assim que o usuário clica no botão é chamada uma função no arquivo proprietário de **JavaScript** com as devidas instruções para a criação de uma lista ordenada com números aleatórios e sem repetição.
@@ -29,16 +31,14 @@ Para sugerir melhorias ao projeto basta enviar uma **Issue** ou um **Pull-Reques
 
 ## Versão Atual:
 
-> v1.3 = Analisa o jogo aleatório para informar ao usuário se são números muito ou pouco sorteados.
+> v1.3.1 = Pequenos ajustes de cores, correção de português e no código.
 
 ## Versões Anteriores:
+
+> v1.3 = Analisa o jogo aleatório para informar ao usuário se são números muito ou pouco sorteados.
 
 > v1.2 = Ajustes no texto e correções de código.
 
 > v1.1 = Ajustes relacionados com CSS e Responsividade.
 
 > v1.0 = Primeira versão funcional da Aplicação.
-
-## Futuras Implementações:
-
-> v1.4 = Transferir o JavaScript para um servidor, desta forma, vou fazer uma integração entre o back-end e o front-end, tornando esta, uma aplicação completa.

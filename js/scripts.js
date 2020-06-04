@@ -5,7 +5,7 @@ const gerarPalpite = document.querySelector('.gerar');
 const maisSorteados = [10, 53, 05, 23, 33, 04, 42, 54, 24, 27];
 
 // Criação da lista com os 10 números menos sorteados da Mega-sena.
-    const menosSorteados = [16, 06, 60, 36, 45, 13, 40, 25, 28, 38];
+const menosSorteados = [16, 06, 60, 36, 45, 13, 40, 25, 28, 38];
     
 /* Criando um evento que aguarda por um clique
     quando ele é dado, dispara uma função anônima. */
@@ -47,23 +47,20 @@ gerarPalpite.addEventListener("click", function() {
     palpite.sort(ordenar);
     
 /* Iteração para preencher o HTML com os números da lista.
-    adicionalmente, estou manipulando o CSS, adicionando e
+    Adicionalmente, estou manipulando o CSS, adicionando e
     removendo classes de acordo com os números mais e menos
     sorteados */
     for (i = 0; i < palpite.length; i++) {
         
-        let bola = document.querySelector(`#bl${i}`);
-        let bolas = document.querySelector(`.bola${i}`);
-        
-        bolas.classList.remove('bolas-menos', 'bolas-mais');
-        
+        let bola = document.querySelector(`#bl${i}`);      
+        bola.classList.remove('bolas-menos', 'bolas-mais');        
         bola.innerHTML = palpite[i];
         
         if (maisSorteados.includes(palpite[i])) {
-            bolas.classList.add('bolas-mais');
+            bola.classList.add('bolas-mais');
         
         } else if (menosSorteados.includes(palpite[i])) {
-            bolas.classList.add('bolas-menos');
+            bola.classList.add('bolas-menos');
         
         }
     }
