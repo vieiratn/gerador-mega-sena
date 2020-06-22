@@ -31,7 +31,7 @@ Para sugerir melhorias ao projeto basta enviar uma **Issue** ou um **Pull-Reques
 
 ## Versão Atual:
 
-> v1.3.1 = Pequenos ajustes de cores, correção de português e no código.
+> v1.3.2 = Pequenos ajustes e correções de português.
 
 ## Versões Anteriores:
 
