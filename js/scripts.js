@@ -9,7 +9,7 @@ const menosSorteados = [16, 06, 60, 36, 45, 13, 40, 25, 28, 38];
     
 /* Criando um evento que aguarda por um clique
     quando ele é dado, dispara uma função anônima. */
-gerarPalpite.addEventListener("click", function() {
+gerarPalpite.addEventListener("click", () => {
     
 // Criação da lista que irá receber todos os números do palpite.
     let palpite = [];
