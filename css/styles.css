@@ -25,9 +25,59 @@ p {
     margin-bottom: 15px;
 }
 
-.sorteio {
-    margin-top: 30px;
-    margin-bottom: 20px;
+.clover-container {
+    margin-top: 40px;
+}
+
+.title-container {
+    margin-top: 40px;
+}
+
+.balls-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.balls {
+    width: 120px;
+    height: 180px;
+}
+
+.ball {
+    font-family: "Jost";
+    font-size: 2rem;
+    font-weight: bold;
+    color: #eeeeee;
+    text-align: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #84C664;
+    padding: 20px;
+    margin: 5px auto;
+    box-shadow: 2px 2px 8px black;
+}
+
+.alert {
+    justify-items: center;
+    margin: 15px auto;
+}
+
+.more-drawn {
+    color: #721c24;
+}
+
+.less-drawn {
+    color: #004085;
+}
+
+.bl1 {
+    vertical-align: auto;
+}
+
+.btn {
+    margin-top: 5px;
 }
 
 .legend-title-container {
@@ -38,59 +88,29 @@ p {
 .legend-container {
     display: flex;
     justify-content: center;
-}
-
-.bolas-container {
-    padding: 25px;
-    margin: auto;
-}
-
-.bolas {
-    font-family: "Jost";
-    font-size: 2rem;
-    font-weight: bold;
-    color: #eeeeee;
-    display: inline-block;
-    text-align: center;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    background-color: #84C664;
-    padding: 20px;
-    margin: 5px;
-    box-shadow: 2px 2px 8px black;
-}
-
-.bolas-mais {
-    color: #3C3CCC;
-}
-
-.bolas-menos {
-    color: #CC3C3C;
-}
-
-.bl1 {
-    vertical-align: auto;
-}
-
-.btn {
-    margin-top: 15px;
+    text-align: left;
 }
 
 .footer-container {
     margin-top: 50px;
 }
 
-.trevo {
+.clover {
     width: 32px;
     height: 32px;
 }
 
-.creditos {
+.credit {
     color: #eeeeee;
     font-family: "Jost";
 }
 
-.contato:hover {
+.contact:hover {
     color: #eeeeee;
+}
+
+.alert {
+    font-size: 12px;
+    font-weight: normal;
+    width: 100px;
 }

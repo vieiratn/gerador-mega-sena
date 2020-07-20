@@ -31,7 +31,7 @@ Para sugerir melhorias ao projeto basta enviar uma **Issue** ou um **Pull-Reques
 
 ## Versão Atual:
 
-> v1.3.3 = Pequenos ajustes no código.
+> v1.4 = Refatoração quase completa do código, melhorias de performance e layout.
 
 ## Versões Anteriores:
 

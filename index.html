@@ -1,93 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Gerador Mega-Sena</title>
-    
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Jost|Ubuntu&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-    <!-- JS Bootstrap -- Ainda não utilizados.
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    -->
-    
     <!-- CSS Proprietário -->
-    <link rel="stylesheet" href="./css/styles.css">
-
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <div class="container-fluid">
+      <div class="clover-container">
+        <img src="./img/nature.png" class="clover" alt="trevo" />
+      </div>
 
-        <div class="image-container">
-            <img src="./img/bingo.png" alt="trevo" class="sorteio">
+      <div class="title-container">
+        <h1>Gerador Mega-Sena</h1>
+        <p>
+          Clique no botão abaixo para gerar um jogo aleatório com seis dezenas.
+        </p>
+      </div>
+
+      <div class="balls-container">
+        <div class="balls">
+          <div class="ball">
+            <span id="ball0">??</span>
+          </div>
+          <div id="alert0" class="alert-text" role="alert"></div>
         </div>
 
-
-        <div class="title-container">
-            <h1>Gerador Mega-Sena</h1>
-            <p>Clique no botão abaixo para gerar um jogo aleatório com seis dezenas.</p>
-        </div>
-        
-        <div class="bolas-container">
-            <div class="bolas">
-                <span id="bl0">??</span>
-            </div>
-            <div class="bolas">
-                <span id="bl1">??</span>
-            </div>
-            <div class="bolas">
-                <span id="bl2">??</span>
-            </div>
-            <div class="bolas">
-                <span id="bl3">??</span>
-            </div>
-            <div class="bolas">
-                <span id="bl4">??</span>
-            </div>
-            <div class="bolas">
-                <span id="bl5">??</span>
-            </div>
-        </div>
-       
-
-        <div class="button btn-container">
-            <button type="button" class="btn btn-warning btn-lg gerar">Gerar Jogo!</button>
-
+        <div class="balls">
+          <div class="ball">
+            <span id="ball1">??</span>
+          </div>
+          <div id="alert1" class="alert-text" role="alert"></div>
         </div>
 
-        <div class="legend-title-container">
-            <p>Legenda de Cores:</p>
-
+        <div class="balls">
+          <div class="ball">
+            <span id="ball2">??</span>
+          </div>
+          <div id="alert2" class="alert-text" role="alert"></div>
         </div>
 
-
-        <div class="legend-container">
-
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-primary"><strong>Azul:</strong> O número está entre os dez mais sorteados.</li>
-                <li class="list-group-item list-group-item-danger"><strong>Vermelho:</strong> O número está entre os dez menos sorteados.</li>
-                <li class="list-group-item"><strong>Branco:</strong> O número não está entre os dez mais e os dez menos sorteados.</li>
-            </ul>
-
+        <div class="balls">
+          <div class="ball">
+            <span id="ball3">??</span>
+          </div>
+          <div id="alert3" class="alert-text" role="alert"></div>
         </div>
 
-        <div class="footer-container">
-            <img src="./img/nature.png" class="trevo" alt="trevo">
-            <p class="creditos">&copy Website desenvolvido em 2020 por <a href="https://github.com/vieiratn" class="contato" target="_blank">Thiago Nascimento</a>.</p>
+        <div class="balls">
+          <div class="ball">
+            <span id="ball4">??</span>
+          </div>
+          <div id="alert4" class="alert-text" role="alert"></div>
         </div>
 
-       
+        <div class="balls">
+          <div class="ball">
+            <span id="ball5">??</span>
+          </div>
+          <div id="alert5" class="alert-text" role="alert"></div>
+        </div>
+      </div>
+
+      <div class="button btn-container">
+        <button type="button" class="btn btn-warning btn-lg generate">
+          Gerar Jogo!
+        </button>
+      </div>
+
+      <div class="legend-title-container">
+        <p>Legenda:</p>
+      </div>
+
+      <div class="legend-container">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger">
+            🔥 => Número está entre os <strong>dez mais
+            sorteados</strong> .
+          </li>
+          <li class="list-group-item list-group-item-primary">
+            🧊 => Número está entre os <strong>dez menos 
+            sorteados</strong> 
+            .
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-container">
+        <p class="credit">
+          &copy Website desenvolvido em 2020 por
+          <a href='mailto:vieiratn@gmail.com' class="contact" target="_blank"
+            >Thiago Nascimento</a
+          >.
+        </p>
+      </div>
     </div>
 
     <!-- JS Proprietário -->
     <script src="./js/scripts.js"></script>
-        
-</body>
+  </body>
 </html>
