@@ -19,34 +19,37 @@ guessGenerator.addEventListener("click", () => {
     aleatórios. */
     const minimum = 1
     const maximum = 60
+    const quantidade = 6
 
-// Função principal para gerar um número aleatório.
-    function randInt(min, max) {
-        let num = Math.random() * (max - min) + min
-        return Math.floor(num)
+// Função para gerar numeros como Promise
+const gerarNumero = (min, max, tamanho, numeros = new Set()) => {
+    if (min > max) {
+        [max, min] = [min, max];
     }
-
-// Função para ordenar os números da lista.
-    function sortNumbers(number1, number2) {
-        return (number1 - number2)
+    if (tamanho < 1) {
+        tamanho = 1;
     }
+    return new Promise((resolve) => {
+        const fator = max - min + 1;
+        let num = parseInt((Math.random() * fator) + min)
+        if (!numeros.has(num)) {
+            numeros.add(num)
+        }
+        if (numeros.size !== tamanho) {
+            return gerarNumero(min, max, tamanho, numeros).then(resolve);
+        }
+        else {
+            resolve(numeros)
+        }
+    })
+}
 
-// Loop para colocar os números dentro da lista.
-    let cont = 0
-    while (guess.length < 6) {
-        let ball = randInt(minimum, maximum)
-
-// Condicional que verifica se o número aleatório já existe na lista.
-        if (guess.indexOf(ball) === -1) {
-            guess.push(ball)
-            cont++
-        }   
-    }
-
-// Utilizando a função para ordenar os itens da lista.
-    guess.sort(sortNumbers)
+gerarNumero(minimum, maximum, quantidade)
+    .then(numeros => {
+        
+        guess = Array.from(numeros).sort((a,b) => a-b)
     
-/* Iteração para preencher o HTML com os números da lista.
+        /* Iteração para preencher o HTML com os números da lista.
     Adicionalmente, estou manipulando o CSS, adicionando e
     removendo classes de acordo com os números mais e menos
     sorteados */
@@ -75,4 +78,8 @@ guessGenerator.addEventListener("click", () => {
         
         }
     }
+    
+    })
+    
+
 });
